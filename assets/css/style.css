@@ -13986,8 +13986,8 @@ figcaption {
 
 @media only screen and (max-width: 479px) {
   .slide.slider-style-3 .slider-wrapper {
-    padding-top: 126px;
-    padding-bottom: 16px;
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
 }
 
@@ -21299,11 +21299,11 @@ body.white-version {
 
 
 .white-version .rn-resume-area .personal-experience-inner .experience-list .resume-single-list:hover .heading {
-  border-bottom: 1px solid #40d40a;
+  border-bottom: 1px solid #2060a4;
 }
 
 .white-version .rn-resume-area .personal-experience-inner .experience-list .resume-single-list-hover:hover .heading {
-  border-bottom: 1px solid #40d40a;
+  border-bottom: 1px solid #2060a4;
 }
 
 .white-version .rn-resume-area .personal-experience-inner .experience-list .resume-single-list:hover .heading .title h4 {
