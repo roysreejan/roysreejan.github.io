@@ -54,7 +54,7 @@
   --shadow-white-3: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
   --gradient-box-w: linear-gradient(145deg, #e2e8ec, #ffffff);
   --gradient-red-hover: linear-gradient(145deg, #4b88df, #1d5a95 );
-  --color-heading: #ffffff;
+  --color-heading: #3c3e41;
   --color-heading-wv: #1e2125;
   --color-body: #878e99;
   --color-body-white: #3c3e41;
@@ -13486,25 +13486,25 @@ figcaption {
 }
 
 .slide {
-  padding-bottom: 0px;
+  padding-top: 10px;
   position: relative;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .slide {
-    padding-bottom: 0px;
+    padding-top: 10px;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .slide {
-    padding-bottom: 0px;
+    padding-top: 10px;
   }
 }
 
 @media only screen and (max-width: 575px) {
   .slide {
-    padding-bottom: 0px;
+    padding-top: 10px;
   }
 }
 
@@ -13531,7 +13531,7 @@ figcaption {
 }
 
 .slide .content .inner {
-  margin-bottom: 80px;
+  margin-bottom: 70px;
 }
 
 @media only screen and (max-width: 1199px) {
@@ -13798,7 +13798,7 @@ figcaption {
 }
 
 .slide .skill-share-inner .skill-share li img {
-  max-height: 23px;
+  max-height: 30px;
   width: auto;
 }
 
@@ -13997,7 +13997,7 @@ figcaption {
 }
 
 .slide.slider-style-3 .slider-wrapper .slider-info:hover {
-  transform: translateY(-5px);
+  transform: translateY(0px);
 }
 
 .slide.slider-style-3 .slider-wrapper .slider-info .user-info-top {
@@ -15812,6 +15812,17 @@ div#featured-project-carousel {
   font-size: 14px;
 }
 
+.personal-experience-inner .experience-list .resume-single-list .inner .heading .title a {
+  color: var(--color-body-white);
+  display: block;
+  font-size: 14px;
+}
+.personal-experience-inner .experience-list .resume-single-list-hover .inner .heading .title a {
+  color: var(--color-body-white);
+  display: block;
+  font-size: 14px;
+}
+
 .personal-experience-inner .experience-list .resume-single-list .inner .heading .date-of-time {
   display: inline-block;
 }
@@ -15897,6 +15908,21 @@ div#featured-project-carousel {
   background: #1e2025;
   box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #222527;
 }
+
+.personal-experience-inner .experience-list .resume-single-list:hover .inner .heading .title a {
+  color: var(--color-white);
+}
+.personal-experience-inner .experience-list .resume-single-list-hover:hover .inner .heading .title a {
+  color: var(--color-white);
+}
+
+.personal-experience-inner .experience-list .resume-single-list:hover .inner .heading .title a:hover {
+  color: rgb(194, 194, 194);
+}
+.personal-experience-inner .experience-list .resume-single-list-hover:hover .inner .heading .title a:hover {
+  color: rgb(194, 194, 194);
+}
+
 
 .personal-experience-inner .experience-list .resume-single-list:hover .inner .description {
   color: var(--color-lightn);
@@ -20430,6 +20456,9 @@ body.white-version {
 }
 
 .white-version .rn-content-wrapper .tab-content-wrapper .tab-content .personal-experience-inner .resume-single-list:hover p.description {
+  color: var(--color-white);
+}
+.white-version .rn-content-wrapper .tab-content-wrapper .tab-content .personal-experience-inner .resume-single-list:hover a {
   color: var(--color-white);
 }
 .white-version .rn-content-wrapper .tab-content-wrapper .tab-content .personal-experience-inner .resume-single-list-hover:hover p.description {
