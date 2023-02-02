@@ -13597,6 +13597,7 @@ figcaption {
   .slide .content .inner .title {
     font-size: 32px;
     line-height: 40px;
+    margin-bottom: 0px;
   }
 }
 
@@ -13865,12 +13866,14 @@ figcaption {
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .slide.slider-style-1 {
     padding-top: 100px;
+    padding-bottom: 80px;
   }
 }
 
 @media only screen and (max-width: 767px) {
   .slide.slider-style-1 {
     padding-top: 100px;
+    padding-bottom: 80px;
   }
 }
 
@@ -13960,7 +13963,7 @@ figcaption {
 
 @media only screen and (max-width: 767px) {
   .slide.slider-style-3 {
-    padding-bottom: 60px;
+    padding-bottom: 0px;
   }
 }
 
@@ -13979,8 +13982,8 @@ figcaption {
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .slide.slider-style-3 .slider-wrapper {
-    padding-top: 126px;
-    padding-bottom: 0;
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
 }
 
@@ -19165,21 +19168,22 @@ div#featured-project-carousel {
   object-fit: cover;
 }
 
+.rn-portfolio .inner .thumbnail a video,
+.rn-blog .inner .thumbnail a video {
+  border-radius: 10px;
+  height: 249px;
+  transition: var(--transition);
+  object-fit: cover;
+  width: 100%;
+}
+
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 
   .rn-portfolio .inner .thumbnail a img,
   .rn-blog .inner .thumbnail a img {
     height: inherit;
   }
-}
-
-.rn-portfolio .inner .thumbnail a video,
-.rn-blog .inner .thumbnail a video {
-  border-radius: 10px;
-  height: 100%;
-  transition: var(--transition);
-  object-fit: cover;
-  width: 100%;
 }
 
 @media only screen and (max-width: 479px) {
