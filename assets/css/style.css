@@ -22103,6 +22103,10 @@ body.white-version {
   border-bottom-color: #dce1e4;
 }
 
+.white-version .popup-mobile-menu .inner .content .social-share-style-1 {
+  border-top-color: #dce1e4;
+}
+
 .white-version .header--sticky.sticky .mainmenu-nav .primary-menu li a {
   opacity: 0.8;
 }
